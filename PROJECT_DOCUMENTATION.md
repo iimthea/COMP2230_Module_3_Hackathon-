@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-[Provide a brief summary of the project, including the theme and objectives.]
+Applying Javascript to HTML webpages with DOM manipulation and event handling.
 
 ## Team Members: 
 
@@ -18,7 +18,7 @@
 
 ### Chan:
 
-- Was responsible for [specific tasks], focusing on [specific HTML elements].
+- Was responsible for creating an afternoon list, with user inputted tasks along with clear button.
 
 ### Rudra:
 
