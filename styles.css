@@ -1,3 +1,4 @@
+
 body {
 	font-family: "Arial", sans-serif;
 	margin: 0;
@@ -34,4 +35,30 @@ section#Afternoon ul {
 
 button#Clear {
 	margin: 1rem auto;
+ 
+/* Night Section Styling */
+#Night {
+    background-color: #1e1e2f;
+    color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Night Button Styling */
+#Clear {
+    background-color: #3a3a5c;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#Clear:hover {
+    background-color: #50507a;
 }

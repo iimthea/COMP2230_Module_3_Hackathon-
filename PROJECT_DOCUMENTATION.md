@@ -22,4 +22,4 @@ Applying Javascript to HTML webpages with DOM manipulation and event handling.
 
 ### Rudra:
 
-- Handled [specific sections], covering [specific topics or features].
+- worked on night and change css and script as required.
