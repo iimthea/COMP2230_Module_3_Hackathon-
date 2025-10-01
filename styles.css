@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f8;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  text-align: center; 
+  margin-bottom: 30px;
+}
+
+#to-do {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.todo-section {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 320px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.todo-section h2 {
+  margin-bottom: 15px;
+  color: #34495e;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button#morning-add-btn {
+  padding: 10px 15px;
+  font-size: 1rem;
+  margin-left: 10px;
+  background-color: darkolivegreen;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button#morning-add-btn:hover {
+  background-color: lightskyblue; 
+}
+
+ul#morning-task-list {
+  list-style: none;
+  margin-top: 20px;
+}
+
+ul#morning-task-list li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+ul#morning-task-list li.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+button#Clear {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #669bbc; 
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  display: block;
+  transition: background-color 0.2s ease;
+}
+
+button#Clear:hover {
+  background-color: #7f8c8d; 
+}
+
+
+
