@@ -8,19 +8,22 @@
 	</head>
 	<body>
 		<header>
-			<h1 id="to-do"><!-- Title will go here --></h1>
+			<h1 id="to-do"><!-- Header will go here --></h1>
 		</header>
 		<main>
 			<section id="Morning">
 				<!-- Morning Information will be dynamically added here -->
 			</section>
             <section id="Afternoon">
+				<ul id="afternoon-list"></ul>
+				<textarea type="text" id="task" name="task" cols="40" placeholder="Enter your task"></textarea>
 				<!-- Afternoon Information will be dynamically added here -->
 			</section>
+			<button id="Clear">Clear</button>
             <section id="Night">
 				<!-- Night Information will be dynamically added here -->
 			</section>
-			<button id="Clear">Clear</button>
 		</main>
+        <script src="script.js"></script>
 	</body>
 </html>
