@@ -22,4 +22,4 @@
 
 ### Rudra:
 
-- Handled [specific sections], covering [specific topics or features].
+- worked on night and change css and script as required.
