@@ -1,1 +1,37 @@
+body {
+	font-family: "Arial", sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+	color: #333;
+}
 
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 0.625em 1.25em;
+	text-align: center;
+}
+
+section#Afternoon {
+	display: block;
+	text-align: center;
+	align-self: center;
+	margin-top: 1rem;
+  	margin-bottom: 1rem;
+  	margin-right: 1rem;
+  	padding-left: 40px;
+}
+
+section#Afternoon ul {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+  padding-left: 40px;
+}
+
+button#Clear {
+	margin: 1rem auto;
+}
