@@ -14,7 +14,7 @@ Applying Javascript to HTML webpages with DOM manipulation and event handling.
 
 ### Thea:
 
-- Worked on [specific elements] of the webpage.
+- Responsible for morning task list, added css for style and colors and added interactivity using javascript. 
 
 ### Chan:
 

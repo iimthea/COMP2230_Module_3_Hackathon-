@@ -3,15 +3,19 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List</title>
+    <title>To-Do List</title>
     </head>
     <body>
         <header>
             <h1 id="to-do">To-Do List</h1>
             </header>
             <main>
-			          <section id="Morning">
+			          <section id="Morning" class="todo-section"> 
                     <!-- Morning Information will be dynamically added here -->
+                    <h2>Morning Tasks</h2>
+                    <input type="text" id="morning-input" placeholder="Add a morning task" />
+                    <button id="morning-add-btn">Add</button>
+                    <ul id="morning-task-list"></ul>   
                 </section>
                 <section id="Afternoon">
 				            <ul id="afternoon-list"></ul>
@@ -25,4 +29,3 @@
             </main>
       <script src="script.js"></script>
     </body>
-</html> 
