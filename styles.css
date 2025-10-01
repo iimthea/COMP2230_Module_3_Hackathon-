@@ -1,3 +1,4 @@
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f7f8;
@@ -112,5 +113,66 @@ button#Clear:hover {
   background-color: #7f8c8d; 
 }
 
+body {
+	font-family: "Arial", sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+	color: #333;
+}
 
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 0.625em 1.25em;
+	text-align: center;
+}
 
+section#Afternoon {
+	display: block;
+	text-align: center;
+	align-self: center;
+	margin-top: 1rem;
+  	margin-bottom: 1rem;
+  	margin-right: 1rem;
+  	padding-left: 40px;
+}
+
+section#Afternoon ul {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+  padding-left: 40px;
+}
+
+button#Clear {
+	margin: 1rem auto;
+ 
+/* Night Section Styling */
+#Night {
+    background-color: #1e1e2f;
+    color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Night Button Styling */
+#Clear {
+    background-color: #3a3a5c;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#Clear:hover {
+    background-color: #50507a;
+}
